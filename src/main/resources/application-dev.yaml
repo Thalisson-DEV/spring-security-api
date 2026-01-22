@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:devdb
+    username: admin
+    password: admin123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+
+jwt:
+  public-key: classpath:app.pub
+  private-key: classpath:app.key

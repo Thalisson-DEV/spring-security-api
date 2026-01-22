@@ -1,4 +1,5 @@
-HELP.md
+/src/main/resources/app.pub
+/src/main/resources/app.key
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
