@@ -113,6 +113,16 @@ Para rodar os testes unitários e de integração:
 ./mvnw test
 ```
 
+## 📌 Roadmap & TODO
+
+- [ ] **Documentação API**: Implementar OpenAPI (Swagger) para documentação interativa.
+- [ ] **Banco de Dados Produção**: Migrar/Adicionar suporte a PostgreSQL.
+- [ ] **Configuração de Ambiente**: Configurar perfis de ambiente (dev, prod) e variáveis para o banco de dados.
+- [ ] **Docker**: Criar `Dockerfile` otimizado para a aplicação.
+- [ ] **Orquestração**: Criar `docker-compose.yml` para subir Aplicação + Banco de Dados.
+- [ ] **CI/CD**: Configurar pipeline do GitHub Actions para build e testes automatizados.
+- [ ] **IA Assist**: Criar `GEMINI.md` para fornecer contexto rico e convenções para desenvolvimento assistido por IA.
+
 ## 🤝 Contribuição
 
 1. Faça um Fork do projeto
